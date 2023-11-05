@@ -1,0 +1,31 @@
+#hero_holder{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* background: linear-gradient(white 60%, #0be389); */
+    background-color: rgb(206, 206, 206);
+}
+
+#hero_imageHolder{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+}
+
+#hero_image{
+    width: 75%;
+    height: 400px;
+    object-fit:cover
+}
+
+#hero_textHolder{
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+#hero_text{
+    width: 80%;
+    font-size: 20px;
+}
