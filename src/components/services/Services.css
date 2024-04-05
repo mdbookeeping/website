@@ -4,14 +4,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: none;
 }
 
 #services_title{
-    padding:  0 0 0 5%;
+    text-align: center;
     font-size: 25px;
     font-weight: 500;
     background-color: var(--base-theme);
-    width: 90%;
+    width: 97%;
 }
 
 #services_list{
@@ -42,4 +43,22 @@
 
 .services_description{
     width: 90%;
+}
+
+@media screen and (max-width: 1110px) {
+    .services_item{
+        height: auto;
+    }
+    .services_type{
+        height: auto;
+    }
+    .services_description{
+        padding-top: 8px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #services_title{
+        width: 100%;
+    }
 }

@@ -5,20 +5,22 @@
     border-bottom: solid 3px var(--base-theme);
 }
 
-#footer_links{
+#footer_logoHolder{
     padding-top: 20px;
 }
 
-.footer_link{
-    text-decoration: none;
-    padding-top: 5px;
-    color: white;
+#footer_logo{
+    height: 70px;
 }
 
-.footer_link:hover{
-    text-decoration: underline solid 2px var(--base-theme);
-}
 
 #footer_xero{
     width: 200px;
+}
+
+@media screen and (max-width: 375px) {
+    #footer_holder{
+        flex-direction: column;
+        align-items: center;
+    }
 }
